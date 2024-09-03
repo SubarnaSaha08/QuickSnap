@@ -69,6 +69,10 @@ namespace CardGames
 		{
 			myGame.Update(); // just ask the game to do this...
 		}
+            SwinGame.BitmapSetCellDetails (cards, 167, 250, 13, 5, 53);      // set the cells in the bitmap to match the cards
+        }
+
+        private static Card _testCard = Card.RandomCard();
 
         public static void Main()
         {
